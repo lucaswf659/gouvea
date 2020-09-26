@@ -1,0 +1,31 @@
+<div class="container">
+    <div class="menu-1">
+        <ul>
+            <li>
+                <button class="mat-raised-button" [matMenuTriggerFor]="menu">Quero ser cliente</button>
+                <mat-menu #menu="matMenu">
+                    <div>Entre ou cadastre-se</div>
+                </mat-menu>
+            </li>
+            <button class="mat-raised-button">Já sou cliente</button>
+        </ul>
+    </div>
+    <div class="menu-2">
+        <ul>
+            <li class="gouvea-descricao">
+                <div class="logo">
+                    Logo
+                </div>
+                <div>
+                    Gouvea
+                </div>
+            </li>
+            <li class="busca">
+                <mat-form-field class="input-busca">
+                    <input matInput placeholder="Pesquisar produtos">
+                </mat-form-field>
+            </li>
+            <li class="gouvea-descricao">carrinho</li>
+        </ul>
+    </div>
+</div>

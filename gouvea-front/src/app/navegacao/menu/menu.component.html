@@ -1,31 +1,42 @@
-<div class="container">
+<header>
     <div class="menu-1">
         <ul>
             <li>
-                <button class="mat-raised-button" [matMenuTriggerFor]="menu">Quero ser cliente</button>
-                <mat-menu #menu="matMenu">
-                    <div>Entre ou cadastre-se</div>
-                </mat-menu>
+                <button>
+                    <fa-icon [icon]="faUser"></fa-icon>
+                    Entrar
+                </button>
             </li>
-            <button class="mat-raised-button">Já sou cliente</button>
+            <li>
+                <button id="quero-ser-cliente">Quero ser cliente</button>
+            </li>
         </ul>
     </div>
-    <div class="menu-2">
-        <ul>
-            <li class="gouvea-descricao">
-                <div class="logo">
-                    Logo
-                </div>
-                <div>
-                    Gouvea
-                </div>
-            </li>
-            <li class="busca">
-                <mat-form-field class="input-busca">
-                    <input matInput placeholder="Pesquisar produtos">
-                </mat-form-field>
-            </li>
-            <li class="gouvea-descricao">carrinho</li>
-        </ul>
+
+    <div class="container">
+        <div class="menu-2">
+            <ul>
+                <li>
+                    <div class="logo">
+                        Logo
+                    </div>
+                    <div>
+                        <h4 class="gouvea-descricao">
+                            Gouvea Materiais
+                        </h4>
+                        <p class="gouvea-descricao">loja online</p>
+                    </div>
+
+                </li>
+                <li class="busca">
+                    <fa-icon class="icone-busca" [icon]="faSearch"></fa-icon>
+                    <input class="input-busca" placeholder="Pesquisar produtos">
+                </li>
+                <li>
+                    <fa-icon class="carrinho" [icon]="faShoppingCart" size="lg"></fa-icon>
+                    <div class="quantidade-itens">0</div>
+                </li>
+            </ul>
+        </div>
     </div>
-</div>
+</header>

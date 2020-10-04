@@ -10,7 +10,11 @@ import { NotFoundComponent } from './navegacao/not-found/not-found.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatInputModule } from '@angular/material/input';
-import { MatIconModule } from '@angular/material/icon';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { CarouselComponent } from './navegacao/home/carousel/carousel.component';
+import { NavbarItensComponent } from './navegacao/home/navbar-itens/navbar-itens.component';
+import { MatCarouselModule } from '@ngbmodule/material-carousel';
+
 
 @NgModule({
   declarations: [
@@ -19,6 +23,8 @@ import { MatIconModule } from '@angular/material/icon';
     HomeComponent,
     MenuComponent,
     NotFoundComponent,
+    CarouselComponent,
+    NavbarItensComponent,
   ],
   imports: [
     BrowserModule,
@@ -26,7 +32,8 @@ import { MatIconModule } from '@angular/material/icon';
     BrowserAnimationsModule,
     MatMenuModule,
     MatInputModule,
-    MatIconModule
+    FontAwesomeModule,
+    MatCarouselModule.forRoot(),
   ],
   providers: [],
   bootstrap: [AppComponent]

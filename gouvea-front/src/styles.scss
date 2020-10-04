@@ -13,8 +13,8 @@ ul {
 }
 
 .menu-1 {
-    background-color: lightgray;
-    height: 42px;
+    background-color: #f1f1f1;
+    height: 31px;
 }
 
 .menu-1 ul{ 
@@ -26,12 +26,17 @@ ul {
 .menu-1 button {
     margin: 7px;
     margin-bottom: 0px;
+    border: none;
+    cursor: pointer;
+}
+
+#quero-ser-cliente {
+    margin-right: 380px;
 }
 
 .menu-2 ul{
     display: flex; 
     justify-content: space-between;
-    margin-top: 5px;
 }
 
 .menu-2 ul li {
@@ -43,13 +48,39 @@ ul {
 }
 
 .gouvea-descricao {
-    padding-top: 20px;
+    margin-top: 0px;
+    margin-bottom: 4px;
 }
 
 .busca {
-    width: 400px;
+    width: 438px;
+    height: 38px;
+    padding: 0 13px;
+    border: 0;
 }
 
 .input-busca {
     width: inherit;
+    padding-left: 10px;
+}
+
+.icone-busca {
+    margin-top: 9px;
+    padding-left: 410px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.carrinho {
+    margin-right: 15px;
+    margin-top: 7px;
+}
+
+.quantidade-itens {
+    margin-right: 5px;
+    margin-top: 7px;
+}
+
+.setor-botao {
+    font-weight: bold;
 }

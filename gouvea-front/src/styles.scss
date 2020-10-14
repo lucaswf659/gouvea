@@ -84,3 +84,32 @@ ul {
 .setor-botao {
     font-weight: bold;
 }
+
+.carousel {
+    margin-top: 10px;
+}
+
+.destaque-header {
+    justify-content: center !important;
+    margin-top: 15px !important;
+    padding-left: 0px;
+}
+
+.destaque-header-line {
+    width: 450px;
+    margin: 10px;
+}
+
+.destaque-produto {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    margin-top: 35%;
+    background-color: #f1f1f1;
+    height: 125px;
+}

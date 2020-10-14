@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { MatCarousel, MatCarouselComponent } from '@ngbmodule/material-carousel';
+import { MatCarousel, MatCarouselComponent } from '@ngmodule/material-carousel';
 
 @Component({
   selector: 'app-carousel',
@@ -7,9 +7,7 @@ import { MatCarousel, MatCarouselComponent } from '@ngbmodule/material-carousel'
 })
 export class CarouselComponent implements OnInit {
 
-  images = [
-    { path: '' },
-  ]
+  slides = [{ 'image': 'https://gsr.dev/material2-carousel/assets/demo.png' }, { 'image': 'https://gsr.dev/material2-carousel/assets/demo.png' }, { 'image': 'https://gsr.dev/material2-carousel/assets/demo.png' }, { 'image': 'https://gsr.dev/material2-carousel/assets/demo.png' }, { 'image': 'https://gsr.dev/material2-carousel/assets/demo.png' }];
 
   constructor() { }
 

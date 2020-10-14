@@ -13,7 +13,8 @@ import { MatInputModule } from '@angular/material/input';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { CarouselComponent } from './navegacao/home/carousel/carousel.component';
 import { NavbarItensComponent } from './navegacao/home/navbar-itens/navbar-itens.component';
-import { MatCarouselModule } from '@ngbmodule/material-carousel';
+import { MatCarouselModule } from '@ngmodule/material-carousel';
+import { DestaqueComponent } from './navegacao/home/destaque/destaque.component';
 
 
 @NgModule({
@@ -25,6 +26,7 @@ import { MatCarouselModule } from '@ngbmodule/material-carousel';
     NotFoundComponent,
     CarouselComponent,
     NavbarItensComponent,
+    DestaqueComponent,
   ],
   imports: [
     BrowserModule,

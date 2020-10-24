@@ -111,6 +111,9 @@ header .menu-2 .quantidade-itens {
     margin: auto;
 }
 
+.home.container{
+    padding-top: 120px;
+}
 .setor-botao {
     font-weight: bold;
 }
@@ -121,23 +124,28 @@ header .menu-2 .quantidade-itens {
 
 .carousel {
     height: auto;
-    margin-top: 92px;
 }
 
 .carousel .carousel-indicators{
     margin: 0;
 }
 .destaque-header {
+    display: flex;
     justify-content: center !important;
     margin-top: 15px !important;
     padding-left: 0px;
 }
-
-.destaque-header-line {
-    width: 450px;
-    margin: 10px;
+.destaque-header .texto-produto-destaque{
+    margin: auto 23px auto 23px;
 }
 
+.destaque-header .destaque-header-line {
+    width: 450px;
+}
+
+.destaque-header .produto-header-line{
+    width: 500px;
+}
 .destaque-produto {
     height: 200px;
     display: flex;

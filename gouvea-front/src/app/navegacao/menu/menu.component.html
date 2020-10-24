@@ -1,20 +1,22 @@
 <header>
     <div class="menu-1">
-        <ul>
-            <li>
-                <button>
-                    <fa-icon [icon]="faUser"></fa-icon>
-                    Entrar
-                </button>
-            </li>
-            <li>
-                <button id="quero-ser-cliente">Quero ser cliente</button>
-            </li>
-        </ul>
+        <div class="container">
+            <ul>
+                <li>
+                    <button>
+                        <fa-icon [icon]="faUser"></fa-icon>
+                        Entrar
+                    </button>
+                </li>
+                <li>
+                    <button id="quero-ser-cliente">Quero ser cliente</button>
+                </li>
+            </ul>
+        </div>
     </div>
 
-    <div class="container">
-        <div class="menu-2">
+    <div class="menu-2">
+        <div class="container">
             <ul>
                 <li>
                     <div class="logo">
@@ -32,7 +34,7 @@
                     <fa-icon class="icone-busca" [icon]="faSearch"></fa-icon>
                     <input class="input-busca" placeholder="Pesquisar produtos">
                 </li>
-                <li>
+                <li class="carrinho-compras">
                     <fa-icon class="carrinho" [icon]="faShoppingCart" size="lg"></fa-icon>
                     <div class="quantidade-itens">0</div>
                 </li>

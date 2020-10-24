@@ -97,12 +97,12 @@ header .menu-2 .icone-busca {
     margin: auto auto auto 10px;
 }
 
-header .menu-2 .carrinho-compras{
+header .menu-2 .carrinho{
     height: max-content;
     margin: auto 5px auto 0;
 }
 
-header .menu-2 .carrinho {
+header .menu-2 .carrinho-icone {
     margin-right: 15px;
 }
 
@@ -121,9 +121,12 @@ header .menu-2 .quantidade-itens {
 
 .carousel {
     height: auto;
-    margin-top: 85px;
+    margin-top: 92px;
 }
 
+.carousel .carousel-indicators{
+    margin: 0;
+}
 .destaque-header {
     justify-content: center !important;
     margin-top: 15px !important;

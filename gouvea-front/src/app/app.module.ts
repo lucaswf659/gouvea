@@ -15,6 +15,7 @@ import { CarouselComponent } from './navegacao/home/carousel/carousel.component'
 import { NavbarItensComponent } from './navegacao/home/navbar-itens/navbar-itens.component';
 import { MatCarouselModule } from '@ngmodule/material-carousel';
 import { DestaqueComponent } from './navegacao/home/destaque/destaque.component';
+import { ProdutosComponent } from './navegacao/home/produtos/produtos.component';
 
 
 @NgModule({
@@ -27,6 +28,7 @@ import { DestaqueComponent } from './navegacao/home/destaque/destaque.component'
     CarouselComponent,
     NavbarItensComponent,
     DestaqueComponent,
+    ProdutosComponent,
   ],
   imports: [
     BrowserModule,
